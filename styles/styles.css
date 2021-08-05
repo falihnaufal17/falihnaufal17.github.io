@@ -1,0 +1,258 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.profile{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.profile .profile-image{
+    border: 5px solid #fff;
+    border-radius: 100%;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.profile .name{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile{
+        top: 5%;
+    }
+
+    .profile .profile-image{
+        max-width: 100px;
+        margin-bottom: 15px;
+    }
+
+    .profile .name{
+        font-size: 16px;
+    }
+}
+
+.profile .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.profile .social-media{
+    display: inline-flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 16px;
+}
+
+.profile .social-media div{
+    margin: auto 9px;
+}
+
+.introduction{
+    background: #EBA83A;
+    color: #fff;
+    padding-top: 62px;
+    height: 517px;
+}
+
+.title-section{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.line{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 145px;
+    height: 7px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.intro{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+}
+
+.intro span{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.intro-image-1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.intro-image-2{
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    z-index: 1;
+}
+
+.intro-image-3{
+    position: absolute;
+    right: 100px;
+    bottom: -200px;
+    z-index: 2;
+}
+
+.education{
+    color: #000;
+    text-align: center;
+    background: #fff;
+    padding-top: 62px;
+}
+
+.education .line{
+    background: #EBA83A;
+}
+
+@media screen and (max-width: 768px) {
+    .education img{
+        max-width: 250px;
+        margin-bottom: 30px;
+    }   
+}
+
+.institute{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.institute a{
+    color: #000;
+    text-decoration: none;
+}
+
+.institute a:hover{
+    color: #000;
+}
+
+.short-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.circle-path{
+    width: 30px;
+    height: 30px;
+    background: #EBA83A;
+    border-radius: 100%;
+}
+
+.vertical-line-path{
+    height: 84px;
+    width: 1px;
+    background: #EBA83A;
+    margin: auto;
+}
+
+.portofolio{
+    background: #FFC93C;
+    color: #fff;
+    padding-top: 62px;
+    margin-bottom: 30px;
+}
+
+a.fn-card{
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+
+a.fn-card img{
+    width: 100%;
+    display: block;
+}
+
+a.fn-card .detail{
+    display: none;
+}
+
+a.fn-card:hover .detail{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.fn-card:hover .detail div{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.download-cv{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+}

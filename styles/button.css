@@ -1,0 +1,25 @@
+.fn-button-download{
+    border: 1px solid #EBA83A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    padding: 25px 120px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EBA83A;
+}
+
+.fn-button-download:hover{
+    color: #fff;
+    background: #EBA83A;
+    transition: 500ms;
+}
+
+@media screen and (max-width: 768px) {
+    .fn-button-download{
+        padding: 15px;
+    }
+}

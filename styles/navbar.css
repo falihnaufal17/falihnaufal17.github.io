@@ -1,0 +1,23 @@
+.fn-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background: transparent;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.fn-navbar a{
+    padding: 0 7.5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
