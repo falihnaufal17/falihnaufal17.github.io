@@ -27,3 +27,24 @@
     background: #EBA83A;
     border-radius: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .carousel .carousel-inner img{
+        height: 250px;
+    }
+
+    .carousel .carousel-indicators{
+        left: 0;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* .carousel .carousel-indicators [data-bs-target]{
+        height: auto;
+    } */
+
+    /* .carousel .carousel-indicators .active{
+        width: 5px;
+        height: 5px;
+    } */
+}
