@@ -241,7 +241,6 @@
     background: #FFC93C;
     color: #fff;
     padding-top: 62px;
-    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -262,6 +261,7 @@ a.fn-card{
 a.fn-card img{
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 a.fn-card .detail{
@@ -269,7 +269,7 @@ a.fn-card .detail{
 }
 
 a.fn-card:hover .detail{
-    background: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     position: absolute;
     top: 0;

@@ -18,6 +18,11 @@ let data = [
         name: 'PulsaDong Seller',
         image: '../images/pulsadong-seller.jpeg',
         url: 'https://play.google.com/store/apps/details?id=com.pulsadongmobile'
+    },
+    {
+        name: 'RT Pintar',
+        image: '../images/rtpintar.png',
+        url: 'https://play.google.com/store/apps/details?id=com.rt_pintar&hl=en_US&pli=1'
     }
 ]
 let elementList = ''

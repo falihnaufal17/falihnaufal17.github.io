@@ -1,15 +1,13 @@
 .fn-navbar{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: end;
     background: transparent;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    z-index: 1;
-    position: absolute;
+    padding: 20px 0;
+    z-index: 4;
+    position: fixed;
     right: 0;
     left: 0;
+    transition: background-color ease-in 0.3s;
 }
 
 .fn-navbar a{
@@ -24,5 +22,15 @@
 
 .fn-navbar a.active {
   border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.fn-navbar.bg-light a {
+  color: #212529;
+}
+
+.fn-navbar.bg-light a.active {
+  color: #212529;
+  border-bottom: 2px solid #212529;
   padding-bottom: 5px;
 }

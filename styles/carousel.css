@@ -19,11 +19,12 @@
 .carousel .carousel-indicators{
     right: unset;
     align-items: center;
-    z-index: 99;
+    z-index: 3;
 }
 
 .carousel .carousel-indicators .active{
     width: 20px;
+    height: 0;
     background: #EBA83A;
     border-radius: 100%;
 }
